@@ -23,5 +23,31 @@ public class file2 {
         System.out.println(type4.getSimpleName());
         System.out.println(type5.getSimpleName());
         System.out.println(type6.getSimpleName());
+
+        // `a` is first converted into an Object using casting:
+        // (Object) a
+        //
+        // Why?
+        // Because every class in Java ultimately extends the Object class.
+        //
+        // Then `.getClass()` is called on that Object.
+        // `getClass()` is a method from the Object class that returns
+        // the runtime class information of the object.
+        //
+        // Example:
+        // If `a` is actually a String,
+        // this returns: class java.lang.String
+        //
+        // The result is stored inside:
+        // Class<?> type
+        //
+        // `Class<?>` means:
+        // "A Class object of some unknown type"
+        //
+        // `?` is a wildcard meaning:
+        // "I don't care what the exact type is right now."
+        //
+        // So overall:
+        // This line gets the actual runtime class/type of object `a`.
     }
 }
