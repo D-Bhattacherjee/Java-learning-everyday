@@ -14,6 +14,7 @@ public class file3 {
         System.out.print("Enter another number:\t");
         int num2 = sc.nextInt();
 
+        sc.close();
         System.out.println("Sum of \t" + num1 + " and " + num2 + " is \t" + (num1 + num2));
 
     }

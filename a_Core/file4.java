@@ -8,6 +8,8 @@ public class file4 {
         System.out.print("Please enter your age to proceed :\t");
         int age = sc.nextInt();
 
+        sc.close();
+
         if (age < 18) {
             System.out.println("Not eligible for PAN card application");
         } else {
