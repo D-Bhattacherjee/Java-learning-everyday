@@ -1,5 +1,6 @@
 /**
- * PROBLEM STATEMENT 3-
+ * PROBLEM STATEMENT 3 - Take input of a digit and check if it is Positive or
+ * not
  */
 
 public class problem3 {
