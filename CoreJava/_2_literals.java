@@ -6,7 +6,7 @@ public class _2_literals {
         int num1 = 9;
         int num2 = 0b01101;
         int num3 = 0xE;
-        int num4 = 9;
+        int num4 = 90_00_00_000;
 
         System.out.println("num1" + num1);
         System.out.println("num2" + num2);
